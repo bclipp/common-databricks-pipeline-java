@@ -58,7 +58,7 @@ Each pipeline invocation processes exactly one logical table.
 
 ## Execution Model
 
-- Batch-oriented ingestion
+- Event Driven Batch-oriented ingestion
 - One table per pipeline run
 - Explicit REST-based triggering
 - No implicit scheduling within the pipeline itself
